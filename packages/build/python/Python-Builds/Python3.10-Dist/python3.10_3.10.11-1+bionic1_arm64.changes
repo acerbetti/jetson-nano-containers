@@ -1,0 +1,110 @@
+Format: 1.8
+Date: Wed, 05 Apr 2023 14:15:30 +0000
+Source: python3.10
+Binary: python3.10 python3.10-venv libpython3.10-stdlib python3.10-minimal libpython3.10-minimal libpython3.10 python3.10-examples python3.10-dev libpython3.10-dev libpython3.10-testsuite idle-python3.10 python3.10-dbg libpython3.10-dbg python3.10-tk python3.10-gdbm python3.10-tk-dbg python3.10-gdbm-dbg python3.10-distutils python3.10-lib2to3 python3.10-full
+Architecture: source all arm64
+Version: 3.10.11-1+bionic1
+Distribution: bionic
+Urgency: medium
+Maintainer: Matthias Klose <doko@debian.org>
+Changed-By: Anthony Sottile (deadsnakes) <asottile+deadsnakes@umich.edu>
+Description:
+ idle-python3.10 - IDE for Python (v3.10) using Tkinter
+ libpython3.10 - Shared Python runtime library (version 3.10)
+ libpython3.10-dbg - Debug Build of the Python Interpreter (version 3.10)
+ libpython3.10-dev - Header files and a static library for Python (v3.10)
+ libpython3.10-minimal - Minimal subset of the Python language (version 3.10)
+ libpython3.10-stdlib - Interactive high-level object-oriented language (standard library
+ libpython3.10-testsuite - Testsuite for the Python standard library (v3.10)
+ python3.10 - Interactive high-level object-oriented language (version 3.10)
+ python3.10-dbg - Debug Build of the Python Interpreter (version 3.10)
+ python3.10-dev - Header files and a static library for Python (v3.10)
+ python3.10-distutils - distutils package for Python (version 3.10)
+ python3.10-examples - Examples for the Python language (v3.10)
+ python3.10-full - Python Interpreter with complete class library (version 3.10)
+ python3.10-gdbm - GNU dbm database support for Python (version 3.10)
+ python3.10-gdbm-dbg - GNU dbm database support for Python (version 3.10 debug extension
+ python3.10-lib2to3 - lib2to3 package for Python (version 3.10)
+ python3.10-minimal - Minimal subset of the Python language (version 3.10)
+ python3.10-tk - Tkinter - Writing Tk applications with Python (version 3.10)
+ python3.10-tk-dbg - Tkinter - Writing Tk applications with Python (version 3.10 debug
+ python3.10-venv - Interactive high-level object-oriented language (pyvenv binary, v
+Changes:
+ python3.10 (3.10.11-1+bionic1) bionic; urgency=medium
+ .
+   * Python 3.10.11 release.
+Checksums-Sha1:
+ 4a6c83bef0945b14893d1112b397fd095e414fdc 2929 python3.10_3.10.11-1+bionic1.dsc
+ b68adc5e88de017bcb0c79ca0a426f1696cc10e3 26127846 python3.10_3.10.11.orig.tar.gz
+ 7f6e5687d4bc9933fbb6531a10ae38a61d440218 195824 python3.10_3.10.11-1+bionic1.debian.tar.xz
+ a819ae0eaa2b3915a44e2cc0f39a238fc46a0116 395988 idle-python3.10_3.10.11-1+bionic1_all.deb
+ 4222d1d2cd5ed34c813b2e747d34227613a7ada4 14630668 libpython3.10-dbg_3.10.11-1+bionic1_arm64.deb
+ c54bb1fa3be127a7f2c0a9ffdfec1f8bdad7cad8 51648448 libpython3.10-dev_3.10.11-1+bionic1_arm64.deb
+ d0989235eac322241ad7a56b992bbdd1f90f7361 814332 libpython3.10-minimal_3.10.11-1+bionic1_arm64.deb
+ c48061d08202d97d8480465952015f1708cb19e4 1716344 libpython3.10-stdlib_3.10.11-1+bionic1_arm64.deb
+ dfb5e08b94564ddcf88498a8adc84cdc732bff4b 3257272 libpython3.10-testsuite_3.10.11-1+bionic1_all.deb
+ 7d307d6caf0f72ba851457ee92dc081963c4d12d 1517760 libpython3.10_3.10.11-1+bionic1_arm64.deb
+ 3cd48c3b4cc8e98564da87678baf3a2afad94026 16825220 python3.10-dbg_3.10.11-1+bionic1_arm64.deb
+ 9656fddaa9b676fb0ebecf3b990e305e2bc29e63 500648 python3.10-dev_3.10.11-1+bionic1_arm64.deb
+ 8f906eed4c0cbdc0334e3338a8d66faebdf86801 186804 python3.10-distutils_3.10.11-1+bionic1_all.deb
+ fe108c62434a10ae3aec682bd4bccc6f945f9458 824196 python3.10-examples_3.10.11-1+bionic1_all.deb
+ 8d0122a53e3021b1f31bda985d1535a9ccc1c44e 1264 python3.10-full_3.10.11-1+bionic1_arm64.deb
+ 09a950cba724ba149553caea11c5bcfe5d8eb100 98356 python3.10-gdbm-dbg_3.10.11-1+bionic1_arm64.deb
+ af445f4618008ac4c83ef37e6b6f262abb168eee 64360 python3.10-gdbm_3.10.11-1+bionic1_arm64.deb
+ 5294d69c13487e958e93566c46b85d96d9b94ac7 125348 python3.10-lib2to3_3.10.11-1+bionic1_all.deb
+ 95b9b6ec5770bc2cd4c339463358251c28bb9088 1759044 python3.10-minimal_3.10.11-1+bionic1_arm64.deb
+ 8c75c6b19a7b4b70cea19246a48048bc346bbc1d 215224 python3.10-tk-dbg_3.10.11-1+bionic1_arm64.deb
+ e968c5e96721f0dc93c68fb75df58447ad19fc3a 144412 python3.10-tk_3.10.11-1+bionic1_arm64.deb
+ 5076799f87ff5b856d9b79ad6dd51cb2cbb57a20 2930720 python3.10-venv_3.10.11-1+bionic1_arm64.deb
+ 1f89c2c9fa79d9afe7fb436d9f7e06f9a7391297 17400 python3.10_3.10.11-1+bionic1_arm64.buildinfo
+ 9a0af28989312d870500c27eda6f8c59c05cf442 553132 python3.10_3.10.11-1+bionic1_arm64.deb
+Checksums-Sha256:
+ e5e712906fc8cdc36e938b82470fc2de2177df62f416b67ad7ddbc3fcb0422c2 2929 python3.10_3.10.11-1+bionic1.dsc
+ e4b831a60866cb604ee013700a338796528187e2085b2b9f9a1fdbeb8b098618 26127846 python3.10_3.10.11.orig.tar.gz
+ 73ac1ac086043f55131fa24e17d29fec8ef2ad8c76a78089734173ab8bc95a73 195824 python3.10_3.10.11-1+bionic1.debian.tar.xz
+ da5b9a0736692e2f25b9efba88ecd86b84ba0aa02d3accf31a2e972e7e041085 395988 idle-python3.10_3.10.11-1+bionic1_all.deb
+ 95bf6b72d2702ca7387f04aac1c780ac64abf0ce8fe3b2c10430813e5926c293 14630668 libpython3.10-dbg_3.10.11-1+bionic1_arm64.deb
+ 0a1baf9cbdce5ab7aa3100c323bcc885b8d921cbb68d99ef7cb4a407b8ce6808 51648448 libpython3.10-dev_3.10.11-1+bionic1_arm64.deb
+ 3d5bb1819ce0a16b8a05f4d5a4326ea0d2dd523558df9ff903c7b6c1335e642c 814332 libpython3.10-minimal_3.10.11-1+bionic1_arm64.deb
+ 3c1a55b81e17856c7b8e60eba47777df8e034a6d5ab44af6d0d4398c157c6820 1716344 libpython3.10-stdlib_3.10.11-1+bionic1_arm64.deb
+ d3e95053ed73989ec6411c6edbb9e3a50e35b1ad59ac187e072cf601335bbf88 3257272 libpython3.10-testsuite_3.10.11-1+bionic1_all.deb
+ c93c68e66148ca71e386147eb93da6e28d1481933e40f233b2ce0b3b0d0a112d 1517760 libpython3.10_3.10.11-1+bionic1_arm64.deb
+ cd1e76f92212d8b63a556d45ec41eb6decfc264941ff406d15141ffea4c0cc4e 16825220 python3.10-dbg_3.10.11-1+bionic1_arm64.deb
+ 346620442c572a98fe2c46d662c561077631e3eafba3d81cc9543dab60749e45 500648 python3.10-dev_3.10.11-1+bionic1_arm64.deb
+ 9692ae2168bdd0b4561db9c68fca8b7dcc83febaa88fc72ea3c687d73a788f1a 186804 python3.10-distutils_3.10.11-1+bionic1_all.deb
+ 1672615b2ec1caa58323f775b8042e15361ef26b0269f19bdb3d1232671c3211 824196 python3.10-examples_3.10.11-1+bionic1_all.deb
+ c09fad3c634e52e068da7ae104dabf052914f371675a12def85f11f6311a21f6 1264 python3.10-full_3.10.11-1+bionic1_arm64.deb
+ 642d746a0d1591c489f7a02836c838aca4d72d8e48557893b7823774e46a41c4 98356 python3.10-gdbm-dbg_3.10.11-1+bionic1_arm64.deb
+ a87b443b2fc0da5db539fdfad88d1d8455773cd296123d7bd856c702da5fca06 64360 python3.10-gdbm_3.10.11-1+bionic1_arm64.deb
+ 8d9784b70d058111accd9e8b5e06cdd55ef9a78478d9045e4c8cf6c154d4fc72 125348 python3.10-lib2to3_3.10.11-1+bionic1_all.deb
+ ed3991dc87d3caf76436f84fff23180a93cb0f63dad88c6ff772dd8a7f45461d 1759044 python3.10-minimal_3.10.11-1+bionic1_arm64.deb
+ cc4f10dec0354803552f8bafef2d730b856eabcccab6459a4d71940e362626cb 215224 python3.10-tk-dbg_3.10.11-1+bionic1_arm64.deb
+ 5e2611a65bf753da8e329027fa0f3122cf96f0b67edd53f45866f9939147f43e 144412 python3.10-tk_3.10.11-1+bionic1_arm64.deb
+ e2c95c91de5754d51a6a0254b707edca7fd3edc873cf34342ed3c70141e9f0af 2930720 python3.10-venv_3.10.11-1+bionic1_arm64.deb
+ 4895c14230071cccfaa077791555fb8fd0defa155ac5b982ec5571c10cbfee84 17400 python3.10_3.10.11-1+bionic1_arm64.buildinfo
+ c1d144469b8571ed15801cc93fb385bd45dafc0f4560d6b7926cd7ce51061676 553132 python3.10_3.10.11-1+bionic1_arm64.deb
+Files:
+ 86027f37a7d96616d18e88ce677493f2 2929 python optional python3.10_3.10.11-1+bionic1.dsc
+ 3a152622730998a842c89f301c855b05 26127846 python optional python3.10_3.10.11.orig.tar.gz
+ e9d4921d99ebd205b635d1b60bdad44f 195824 python optional python3.10_3.10.11-1+bionic1.debian.tar.xz
+ e0aa33ca43d7b11335ec44f957ad4025 395988 python optional idle-python3.10_3.10.11-1+bionic1_all.deb
+ 8fcf09207c1dd544000947cbca07a6a2 14630668 debug optional libpython3.10-dbg_3.10.11-1+bionic1_arm64.deb
+ 8eded21e084b78821af03fbf089837f5 51648448 libdevel optional libpython3.10-dev_3.10.11-1+bionic1_arm64.deb
+ 8f3bce341540e725f574060cd4dd0e8c 814332 python optional libpython3.10-minimal_3.10.11-1+bionic1_arm64.deb
+ d08c21c0bdd5981330363cc6373802b8 1716344 python optional libpython3.10-stdlib_3.10.11-1+bionic1_arm64.deb
+ 95eb3636a8035656e5db0a4cadb0cd68 3257272 libdevel optional libpython3.10-testsuite_3.10.11-1+bionic1_all.deb
+ a639307b0f1bb647581f215069b5a3d0 1517760 libs optional libpython3.10_3.10.11-1+bionic1_arm64.deb
+ 9bb1c4e22f94abc3f6e6bc5905fd456c 16825220 debug optional python3.10-dbg_3.10.11-1+bionic1_arm64.deb
+ d652f8b4ce465a94bb062c7fe6add2aa 500648 python optional python3.10-dev_3.10.11-1+bionic1_arm64.deb
+ 35cd0960b40c5e8c5c960579eb09cd1d 186804 python optional python3.10-distutils_3.10.11-1+bionic1_all.deb
+ c78add3a21d71abf244a54dea4766e8c 824196 python optional python3.10-examples_3.10.11-1+bionic1_all.deb
+ 9c03c1d11ef390fde207f47add0c62db 1264 python optional python3.10-full_3.10.11-1+bionic1_arm64.deb
+ b8122f92b41e8e2c9f1c42ac388cc68b 98356 debug extra python3.10-gdbm-dbg_3.10.11-1+bionic1_arm64.deb
+ 00c96b901fbec7c3ea288f415f35b821 64360 python optional python3.10-gdbm_3.10.11-1+bionic1_arm64.deb
+ babeac925341ec0733be3b055192bb9a 125348 python optional python3.10-lib2to3_3.10.11-1+bionic1_all.deb
+ 77738bb0c51ca3b26545041d449765fe 1759044 python optional python3.10-minimal_3.10.11-1+bionic1_arm64.deb
+ e4aed50782192a17956301b3e6d3db1a 215224 debug extra python3.10-tk-dbg_3.10.11-1+bionic1_arm64.deb
+ 7a68b3e497b92c2321c436cdf39eb907 144412 python optional python3.10-tk_3.10.11-1+bionic1_arm64.deb
+ 96bc3fce89ac238c976619e5fe83136f 2930720 python optional python3.10-venv_3.10.11-1+bionic1_arm64.deb
+ ca58c2556e85fedb71f71e3f276d67c8 17400 python optional python3.10_3.10.11-1+bionic1_arm64.buildinfo
+ cf1308fd1cafb7c0bf7220005e056227 553132 python optional python3.10_3.10.11-1+bionic1_arm64.deb
