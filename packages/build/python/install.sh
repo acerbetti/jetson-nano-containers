@@ -12,12 +12,8 @@ return_code=$?
 set -e
 
 if [ $return_code != 0 ]; then
-   echo "-- using deadsnakes ppa to install Python ${PYTHON_VERSION}"
-   add-apt-repository ppa:deadsnakes/ppa
-   apt-get update
-   apt-get install -y --no-install-recommends \
-	  python${PYTHON_VERSION} \
-	  python${PYTHON_VERSION}-dev
+   echo "-- using pre-built Python ${PYTHON_VERSION} binaries"
+   bash /tmp/install_binaries.sh --version ${PYTHON_VERSION}
 fi
 
 rm -rf /var/lib/apt/lists/*
@@ -42,9 +38,9 @@ pip3 --version
 
 python3 -m pip install --upgrade pip pkginfo --index-url https://pypi.org/simple
 
-pip3 install --no-cache-dir --verbose --no-binary :all: psutil
 pip3 install --upgrade --no-cache-dir \
    setuptools \
+   psutils \
    packaging \
    'Cython' \
    wheel 
