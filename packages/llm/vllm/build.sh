@@ -29,11 +29,14 @@ git clone --recursive --depth=1 https://github.com/vllm-project/vllm /opt/vllm
 cd /opt/vllm
 
 # apply patches: Remove switching to outlines instead of XGrammar
+env
+cp /tmp/vllm/${VLLM_VERSION}.fa.diff /tmp/vllm/fa.diff
 git apply /tmp/vllm/${VLLM_VERSION}.diff
 git diff
 
-export MAX_JOBS=4 # $(nproc) max 4 working on Orin NX
+export MAX_JOBS=$(nproc) # this is for AGX (max 4 working on Orin NX)
 export USE_CUDNN=1
+export VERBOSE=1
 export CUDA_HOME=/usr/local/cuda
 export PATH="${CUDA_HOME}/bin:$PATH"
 export SETUPTOOLS_SCM_PRETEND_VERSION="${VLLM_VERSION}"
@@ -42,7 +45,7 @@ python3 use_existing_torch.py || echo "skipping vllm/use_existing_torch.py"
 
 pip3 install -r requirements-build.txt
 python3 -m setuptools_scm
-pip3 wheel --no-build-isolation --verbose --wheel-dir=/opt/vllm/wheels .
+pip3 wheel --no-build-isolation -v -v -v --wheel-dir=/opt/vllm/wheels .
 pip3 install --no-cache-dir --verbose /opt/vllm/wheels/vllm*.whl
 
 cd /opt/vllm
