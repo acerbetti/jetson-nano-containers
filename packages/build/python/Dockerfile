@@ -24,5 +24,7 @@ ENV PYTHON_VERSION=${PYTHON_VERSION_ARG} \
 
 COPY install.sh /tmp/install_python.sh 
 COPY install_binaries.sh /tmp/install_binaries.sh 
-COPY Python-Builds /tmp/Python-Builds 
-RUN /tmp/install_python.sh
+COPY Python-Builds /tmp/Python-Builds
+
+RUN /tmp/install_python.sh \ 
+    && rm -rf /tmp/* \

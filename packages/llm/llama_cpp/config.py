@@ -9,7 +9,7 @@ def llama_cpp(version, branch=None, test=None, default=False, requires=None, fla
     pkg['name'] = f'llama_cpp:{version}'
 
     if not test:
-        test = "test_model.py --model $(huggingface-downloader TheBloke/Llama-2-7B-GGUF/llama-2-7b.Q4_K_S.gguf)"
+        test = "test_model.py --model $(huggingface-downloader TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/tinyllama-1.1b-chat-v1.0.Q5_K_M.gguf)"
 
     pkg['test'] = pkg['test'] + [test]
 

@@ -16,6 +16,8 @@ ARG LLAMA_CPP_VERSION \
     FORCE_BUILD=off
 
 COPY build.sh install.sh /tmp/llama_cpp/
+COPY wheels/ /opt/wheels
+
 COPY benchmark.py /usr/local/bin/llama_cpp_benchmark.py
 
 RUN /tmp/llama_cpp/install.sh || /tmp/llama_cpp/build.sh
