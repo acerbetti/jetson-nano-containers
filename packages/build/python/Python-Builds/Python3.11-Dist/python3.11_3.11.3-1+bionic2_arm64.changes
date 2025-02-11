@@ -1,0 +1,107 @@
+Format: 1.8
+Date: Mon, 05 Jun 2023 11:54:34 -0400
+Source: python3.11
+Binary: python3.11 python3.11-venv libpython3.11-stdlib python3.11-minimal libpython3.11-minimal libpython3.11 python3.11-examples python3.11-dev libpython3.11-dev libpython3.11-testsuite idle-python3.11 python3.11-dbg libpython3.11-dbg python3.11-tk python3.11-gdbm python3.11-tk-dbg python3.11-gdbm-dbg python3.11-distutils python3.11-lib2to3 python3.11-full
+Architecture: source all arm64
+Version: 3.11.3-1+bionic2
+Distribution: bionic
+Urgency: medium
+Maintainer: Matthias Klose <doko@debian.org>
+Changed-By: Anthony Sottile <asottile@umich.edu>
+Description:
+ idle-python3.11 - IDE for Python (v3.11) using Tkinter
+ libpython3.11 - Shared Python runtime library (version 3.11)
+ libpython3.11-dbg - Debug Build of the Python Interpreter (version 3.11)
+ libpython3.11-dev - Header files and a static library for Python (v3.11)
+ libpython3.11-minimal - Minimal subset of the Python language (version 3.11)
+ libpython3.11-stdlib - Interactive high-level object-oriented language (standard library
+ libpython3.11-testsuite - Testsuite for the Python standard library (v3.11)
+ python3.11 - Interactive high-level object-oriented language (version 3.11)
+ python3.11-dbg - Debug Build of the Python Interpreter (version 3.11)
+ python3.11-dev - Header files and a static library for Python (v3.11)
+ python3.11-distutils - distutils package for Python (version 3.11)
+ python3.11-examples - Examples for the Python language (v3.11)
+ python3.11-full - Python Interpreter with complete class library (version 3.11)
+ python3.11-gdbm - GNU dbm database support for Python (version 3.11)
+ python3.11-gdbm-dbg - GNU dbm database support for Python (version 3.11 debug extension
+ python3.11-lib2to3 - lib2to3 package for Python (version 3.11)
+ python3.11-minimal - Minimal subset of the Python language (version 3.11)
+ python3.11-tk - Tkinter - Writing Tk applications with Python (version 3.11)
+ python3.11-tk-dbg - Tkinter - Writing Tk applications with Python (version 3.11 debug
+ python3.11-venv - Interactive high-level object-oriented language (pyvenv binary, v
+Changes:
+ python3.11 (3.11.3-1+bionic2) bionic; urgency=medium
+ .
+   * remove unnecssary profiled-build patch
+Checksums-Sha1:
+ 50dc299f8490efba1d6550cb11e89f6d099d5327 2921 python3.11_3.11.3-1+bionic2.dsc
+ 9c57475d2fc696fd305cdce0e05c22913cdf0c8a 195088 python3.11_3.11.3-1+bionic2.debian.tar.xz
+ 75fab4be0e57438830d66cf20083d88a036cd66c 396096 idle-python3.11_3.11.3-1+bionic2_all.deb
+ a3e2b8fb328524f9ebff7b02de5d70c41ee9deec 18043744 libpython3.11-dbg_3.11.3-1+bionic2_arm64.deb
+ bcc42868bd64d5dbeee068a54baa01661f8f22c9 57528888 libpython3.11-dev_3.11.3-1+bionic2_arm64.deb
+ aab97dc49b343d99c9b2525c73d61c060e3218d3 842180 libpython3.11-minimal_3.11.3-1+bionic2_arm64.deb
+ 1425e2f20dd0525f28de6573f866ec1d1d2454d9 1740420 libpython3.11-stdlib_3.11.3-1+bionic2_arm64.deb
+ 5a1483c3481bcc0b54c3d2f32014b6fd3fd22dd5 3367632 libpython3.11-testsuite_3.11.3-1+bionic2_all.deb
+ 051236a3c37b274830310129e8f545c3b32908c2 1744888 libpython3.11_3.11.3-1+bionic2_arm64.deb
+ ee45727abf577502f2eaee4396bc05cad85dae4d 19708620 python3.11-dbg_3.11.3-1+bionic2_arm64.deb
+ e46b84c573801c3ef1f931d0fac9dcd84eba3eaa 500632 python3.11-dev_3.11.3-1+bionic2_arm64.deb
+ 0ac542f52a8e5220d2cfd8f650e302c97b1205cb 179988 python3.11-distutils_3.11.3-1+bionic2_all.deb
+ 07e998a8f620b893cd06360cd89877754ff99c0e 837764 python3.11-examples_3.11.3-1+bionic2_all.deb
+ 6008ad6fcf9978313b7920b122d5b936cc9ebba6 1268 python3.11-full_3.11.3-1+bionic2_arm64.deb
+ 00bc4740090d3aef573899bdcec3c4a704b1e0a0 98408 python3.11-gdbm-dbg_3.11.3-1+bionic2_arm64.deb
+ 28e1c1e8059105a14183f452466d20f04d448bd1 64552 python3.11-gdbm_3.11.3-1+bionic2_arm64.deb
+ 0a4758741d93ec40734e68cd4033ff278f3f0f4b 125664 python3.11-lib2to3_3.11.3-1+bionic2_all.deb
+ d285ae80aed0bc04299d40000dd82f3f91d370d4 1945136 python3.11-minimal_3.11.3-1+bionic2_arm64.deb
+ f85123170e47c4caa9973d89955b509e1321f8e4 215176 python3.11-tk-dbg_3.11.3-1+bionic2_arm64.deb
+ 5338f586a30093c0ae55975ca682eb5479ba96a5 144196 python3.11-tk_3.11.3-1+bionic2_arm64.deb
+ 45db4e96c3c163ccaccffc57602959a0b5bec950 2927452 python3.11-venv_3.11.3-1+bionic2_arm64.deb
+ 09a8db64409fe242af0a5ef2992e5165dd4f3f1b 17195 python3.11_3.11.3-1+bionic2_arm64.buildinfo
+ b05bac539cfb7c26e74fb03eaff5f9847a54d9f2 613132 python3.11_3.11.3-1+bionic2_arm64.deb
+Checksums-Sha256:
+ 87a50e766c5d5c5eb4b1304463955eef8a62d11c78019ea0a140ec2d6a1065ea 2921 python3.11_3.11.3-1+bionic2.dsc
+ 2e8e1c87da777167a97762eda9436285c39bc344b57b821a093db8734b49f916 195088 python3.11_3.11.3-1+bionic2.debian.tar.xz
+ 7d0b9d6cf1c4f3416819c356597ed28ecfaf669cf181c6dc521dc5edd79e5707 396096 idle-python3.11_3.11.3-1+bionic2_all.deb
+ df837f38e52b6be6404847da1362797d607abd3a092f9b0b6d1a4a9b16bded80 18043744 libpython3.11-dbg_3.11.3-1+bionic2_arm64.deb
+ 652058fa249ab1a826e7139a542cff0de1b97874fbcd5e4eefb803b8f1c5e277 57528888 libpython3.11-dev_3.11.3-1+bionic2_arm64.deb
+ 1034f86f64377f05d77d82b0de4f7b7030ac47665503f1adea35ed4c970a3465 842180 libpython3.11-minimal_3.11.3-1+bionic2_arm64.deb
+ 17ca3948f9fa71c3ce162ddb95c0f7a3a4dc9b8ba1dee199b1e0caa6aedeecc3 1740420 libpython3.11-stdlib_3.11.3-1+bionic2_arm64.deb
+ a136eda09049d280e59834361d03effd76dac9145346f71d6bf78b398d8d97a4 3367632 libpython3.11-testsuite_3.11.3-1+bionic2_all.deb
+ b2f8c3c971e90562aa6c0eebaf48938ddeac20becb2a86ecf9e7adb0efa726f0 1744888 libpython3.11_3.11.3-1+bionic2_arm64.deb
+ 55c5422e6424948c6866d3e13ee2bf8b9e47272f15d4a860ea2005588b6eed43 19708620 python3.11-dbg_3.11.3-1+bionic2_arm64.deb
+ dce039d3ffd8c202ec38b693a671506e56c21820035f116c8475eef8e8b64a92 500632 python3.11-dev_3.11.3-1+bionic2_arm64.deb
+ f70ce2155d50870a00a5e84e7edf5aef90111edade8d1df7e171c79e9ad0cade 179988 python3.11-distutils_3.11.3-1+bionic2_all.deb
+ c57276aeceac72d9dd11e706f10a56b60c060fae9846e85f2776267a4596d79c 837764 python3.11-examples_3.11.3-1+bionic2_all.deb
+ 692e108288b388db2cf26eaf39031748f6f64b552364043b32f8d6c19dd6a83c 1268 python3.11-full_3.11.3-1+bionic2_arm64.deb
+ 8adf074737ee27ef5abb3820a081004670e3cc95f96c38dae9bd2ac441b2b474 98408 python3.11-gdbm-dbg_3.11.3-1+bionic2_arm64.deb
+ 08a86d855c983056e9fd4b882db5793672a68a35891e6f61f6611a78a58f1984 64552 python3.11-gdbm_3.11.3-1+bionic2_arm64.deb
+ df98328a15c4bb34e2aee095bdb893b728df27035bf8fafa9cb91fbf249d53e3 125664 python3.11-lib2to3_3.11.3-1+bionic2_all.deb
+ cd74b2069469c6fe3c63f9a07e136a107b3a2ec0d528487af423558ceed59b86 1945136 python3.11-minimal_3.11.3-1+bionic2_arm64.deb
+ e91b8bbcfca42fa07d2a71b469d552d9add5a3f895d87225814c2c8b62b49203 215176 python3.11-tk-dbg_3.11.3-1+bionic2_arm64.deb
+ 349b674d1f399db98e405d2a200efbaa63cdfcfabc4fc20f6bfdbb8b70b01bef 144196 python3.11-tk_3.11.3-1+bionic2_arm64.deb
+ 825c37e3213ca48809cec8b9dcb49901aff850d8b4e6880608180689b8021d65 2927452 python3.11-venv_3.11.3-1+bionic2_arm64.deb
+ 99daa8d4c554035f89bf341ecd4a4bcf3db166cf9d7979ddc95485c14f0d7d57 17195 python3.11_3.11.3-1+bionic2_arm64.buildinfo
+ bf50e276b4d11a3fbf0d495523c66aa8ee54ee613e148050e305f0dbe9cd1727 613132 python3.11_3.11.3-1+bionic2_arm64.deb
+Files:
+ 5ff9737cbc5966e6e82d8a2d17b83b6d 2921 python optional python3.11_3.11.3-1+bionic2.dsc
+ 64768dbb4d964ebc3c607c156b9422f8 195088 python optional python3.11_3.11.3-1+bionic2.debian.tar.xz
+ 45cb70fe30621aac9b1ffd70aa37f9dc 396096 python optional idle-python3.11_3.11.3-1+bionic2_all.deb
+ 06321964cf791a160038d98c4d3582bc 18043744 debug optional libpython3.11-dbg_3.11.3-1+bionic2_arm64.deb
+ 88f4533c39c76f2a599a8e63765427a7 57528888 libdevel optional libpython3.11-dev_3.11.3-1+bionic2_arm64.deb
+ 38275b459c1e6742f8112665b34d9d30 842180 python optional libpython3.11-minimal_3.11.3-1+bionic2_arm64.deb
+ e78e878a9a7e840cd465c7025bc3d6a0 1740420 python optional libpython3.11-stdlib_3.11.3-1+bionic2_arm64.deb
+ e001e2b8adccbfa0050ad48bbfe07b10 3367632 libdevel optional libpython3.11-testsuite_3.11.3-1+bionic2_all.deb
+ 59e89f071f5ec3f86c65ffde87e6c818 1744888 libs optional libpython3.11_3.11.3-1+bionic2_arm64.deb
+ 9cb7d28d427f223bcf93a57463780ac1 19708620 debug optional python3.11-dbg_3.11.3-1+bionic2_arm64.deb
+ 74110406ff6c492dfc99e1fb87915475 500632 python optional python3.11-dev_3.11.3-1+bionic2_arm64.deb
+ a439974c814e2815cc3a47e0b1fd0db7 179988 python optional python3.11-distutils_3.11.3-1+bionic2_all.deb
+ 10a633379877da0951aedd5a6d7ed339 837764 python optional python3.11-examples_3.11.3-1+bionic2_all.deb
+ 6a79b21586a7436371a8dba8c3de117d 1268 python optional python3.11-full_3.11.3-1+bionic2_arm64.deb
+ d92a27eff1687f9382c07e42fe8c1917 98408 debug extra python3.11-gdbm-dbg_3.11.3-1+bionic2_arm64.deb
+ 056165d7853201d9b85da76afc52f46a 64552 python optional python3.11-gdbm_3.11.3-1+bionic2_arm64.deb
+ 809584d2460abc3a341c3ad77813a1cf 125664 python optional python3.11-lib2to3_3.11.3-1+bionic2_all.deb
+ 9c79a618ce0024b89c89c7e98ed18dca 1945136 python optional python3.11-minimal_3.11.3-1+bionic2_arm64.deb
+ fc35f924e7623b085966ff41c3753cd7 215176 debug extra python3.11-tk-dbg_3.11.3-1+bionic2_arm64.deb
+ 79afc7658098e8798c2411d456a78fb7 144196 python optional python3.11-tk_3.11.3-1+bionic2_arm64.deb
+ 5a50495350b3b47a1d3f00c602244028 2927452 python optional python3.11-venv_3.11.3-1+bionic2_arm64.deb
+ a5c993704e6b0c3b793839dec4eee0a3 17195 python optional python3.11_3.11.3-1+bionic2_arm64.buildinfo
+ d60f4cd318ef4650b9934a2c471f9143 613132 python optional python3.11_3.11.3-1+bionic2_arm64.deb
