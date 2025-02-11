@@ -38,9 +38,9 @@ pip3 --version
 
 python3 -m pip install --upgrade pip pkginfo --index-url https://pypi.org/simple
 
+pip3 install --no-cache-dir --verbose --no-binary :all: psutil
 pip3 install --upgrade --no-cache-dir \
    setuptools \
-   psutils \
    packaging \
    'Cython' \
    wheel 

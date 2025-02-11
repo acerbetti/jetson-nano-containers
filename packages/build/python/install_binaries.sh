@@ -74,4 +74,4 @@ sh -c 'dpkg-scanpackages ./ /dev/null | gzip -9c > Packages.gz'
 echo 'deb [trusted=yes] file://'$PWD ' ./' | tee /etc/apt/sources.list.d/python$version-local.list
 
 apt update
-apt install -y python$version-full
+apt install -y python$version-full python$version-dev

@@ -2,7 +2,7 @@
 # name: onnx
 # group: ml
 # config: config.py
-# depends: [cmake, python, numpy]
+# depends: [cmake, l4python, numpy]
 # test: test.py
 # notes: the `protobuf_apt` is added as a dependency on JetPack 4 (newer versions of onnx build it in-tree)
 #---
