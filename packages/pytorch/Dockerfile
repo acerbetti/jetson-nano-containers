@@ -29,7 +29,6 @@ ENV TORCH_CUDA_ARCH_LIST=${TORCH_CUDA_ARCH_ARGS} \
     TORCH_HOME=/data/models/torch
 
 COPY install.sh build.sh /tmp/pytorch/
-COPY wheels/ /opt/wheels
 
 # attempt to install from pip, and fall back to building it
 RUN /tmp/pytorch/install.sh || /tmp/pytorch/build.sh

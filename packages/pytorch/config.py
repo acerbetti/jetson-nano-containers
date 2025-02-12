@@ -65,7 +65,7 @@ def pytorch_wget(version, whl, url, requires, alias=None):
     
     pkg['name'] = f'pytorch:{version}'
     pkg['alias'] = [f'torch:{version}']
-    pkg['Dockerfile'] = 'Dockerfile.wget'
+    pkg['dockerfile'] = 'Dockerfile.wget'
     
     if Version(version) == PYTORCH_VERSION:
         pkg['alias'].extend(['pytorch', 'torch'])
