@@ -12,7 +12,7 @@ FROM ${BASE_IMAGE}
 RUN pip3 install --no-cache-dir --verbose \
         llama-index-core \
         llama-index-readers-file \
-        llama-index-llms-llama-cpp \
+        'llama-index-llms-llama-cpp<0.4.0' \
         llama-index-embeddings-huggingface
 
 CMD /bin/bash
