@@ -3,7 +3,7 @@ from packaging.version import Version
 
 import os
 
-package['depends'] = ['cuda', 'cudnn', 'python']
+package['depends'] = ['cuda', 'cudnn', 'python', 'cmake']
 package['test'] = ['test.sh']
 
 if 'TENSORRT_VERSION' in os.environ and len(os.environ['TENSORRT_VERSION']) > 0:
@@ -95,7 +95,7 @@ def tensorrt_builtin(version=None, requires=None, default=False):
     if requires:
         passthrough['requires'] = requires
         
-    #del passthrough['dockerfile']
+    passthrough['dockerfile'] = 'Dockerfile.builtin'
     return passthrough
 
     

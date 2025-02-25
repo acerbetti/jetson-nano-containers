@@ -1,0 +1,14 @@
+#---
+# name: tensorrt
+# group: cuda
+# depends: [cmake, cuda, cudnn, python]
+# config: config.py
+# test: test.sh
+#---
+ARG BASE_IMAGE
+FROM ${BASE_IMAGE}
+
+COPY tensorrt-8.2.1.8-cp310-none-linux_aarch64.whl make_bindings.sh install.sh tmp/
+#COPY libpython3.10-dev_3.10.11-1+bionic1_arm64.deb make_bindings.sh install.sh tmp/
+
+RUN /tmp/install.sh || /tmp/make_bindings.sh
